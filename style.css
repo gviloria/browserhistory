@@ -1,11 +1,15 @@
 body {
+/* Non-Heading Font */
   font-family: 'Open Sans', sans-serif;
-  color: darkblue;
+  color: white;
+/*     Top, Right, Bottom, Left  */
   margin: 10px 50px 10px 50px;
-  background-color: Ivory;
+  background-color: black;
 }
 
 h1, h2 {
+/* Headings Font */
+  color: white;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -14,24 +18,25 @@ img {
   margin-right: 10px;
 }
 
+/* class */
 .left {
   float: left;
-  width: 300px;
-  padding: 1em;
 }
 
 .right {
   float: right;
-  width: 300px;
-  padding: 1em;
 }
 
 .center {
   margin-left: 300px;
   margin-right: 300px;
-  padding: 1em;
 }
 
+.icon {
+  width: 300px;
+}
+
+/* id */
 #nav ul {
   list-style-type: none;
   margin: 0;
